@@ -1,0 +1,1245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A983AEBBBE1343407FB0170 /* FFSwiftTutorialKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D77E880884E3F782D6505 /* FFSwiftTutorialKit.swift */; };
+		16E0F9018CEC4833DE029C6E /* FFSwiftTutorialKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */; };
+		1987DAF21DB01E082BFB59D2 /* TuistBundle+FFSwiftTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA9A2330719207338FC195 /* TuistBundle+FFSwiftTutorial.swift */; };
+		24EA30FF5625FE26E8289889 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6014D5964EA0303FAEAC53B /* AppTests.swift */; };
+		3387F1DAC6C0A7AE00B35592 /* FFSwiftTutorialUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */; };
+		385B29ECD46E80E6AEC327BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF6C77E233D1B8FD255BE2 /* LaunchScreen.storyboard */; };
+		3F8E64D86CF85C94FE4B919B /* FFSwiftTutorialKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		445B1271E4D803899EFD3471 /* FFSwiftTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA3C46C6737E690D5C9321 /* FFSwiftTutorialUITests.swift */; };
+		7933B5042B626ACB00EF9FE3 /* FFMpegExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933B5032B626ACB00EF9FE3 /* FFMpegExtension.swift */; };
+		7933B5062B626B9200EF9FE3 /* AvFoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933B5052B626B9200EF9FE3 /* AvFoundationExtension.swift */; };
+		79A7DF3A2B62537B00040CD5 /* FFmpegKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79A7DF392B62537B00040CD5 /* FFmpegKit */; };
+		79A7DF3C2B62537B00040CD5 /* Libavcodec in Frameworks */ = {isa = PBXBuildFile; productRef = 79A7DF3B2B62537B00040CD5 /* Libavcodec */; };
+		79A7DF3E2B62537B00040CD5 /* Libavfilter in Frameworks */ = {isa = PBXBuildFile; productRef = 79A7DF3D2B62537B00040CD5 /* Libavfilter */; };
+		79A7DF402B62537B00040CD5 /* Libavformat in Frameworks */ = {isa = PBXBuildFile; productRef = 79A7DF3F2B62537B00040CD5 /* Libavformat */; };
+		79A7DF422B62537B00040CD5 /* Libavutil in Frameworks */ = {isa = PBXBuildFile; productRef = 79A7DF412B62537B00040CD5 /* Libavutil */; };
+		7C8D5A72DEE70848F5EBCF5A /* FFSwiftTutorialUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708FD492435CFF58952C385 /* FFSwiftTutorialUI.swift */; };
+		8E9B6157ED9C2C08243E9E2E /* FFSwiftTutorialUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */; };
+		C7F9A228B3AB71D9653D2A21 /* FFSwiftTutorialKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */; };
+		EB0ED753D74FE1113D0CB32F /* FFSwiftTutorialUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ECDD145617A748010372B31B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE76DF599351FA225BC423C /* AppDelegate.swift */; };
+		FF60ABF34CFB238527683A00 /* FFSwiftTutorialKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C137AD745CF6662D6BE4C /* FFSwiftTutorialKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6132C00F0798160D7A979509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D335DC8324F621BB2820FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7A82CF8842401C8186A88E;
+			remoteInfo = FFSwiftTutorialKit;
+		};
+		65C19CDAB1D1AA3817AA23CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D335DC8324F621BB2820FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21EF6D33C41160A491DAA7A;
+			remoteInfo = FFSwiftTutorial;
+		};
+		66796A99AFE8FA83C8DDD5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D335DC8324F621BB2820FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0AF743EFC775CA1088C86DD;
+			remoteInfo = FFSwiftTutorialUI;
+		};
+		D0F0E2A247E92465B143DA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D335DC8324F621BB2820FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7A82CF8842401C8186A88E;
+			remoteInfo = FFSwiftTutorialKit;
+		};
+		EF43FA8BE3ACFD6913ABA99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D335DC8324F621BB2820FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0AF743EFC775CA1088C86DD;
+			remoteInfo = FFSwiftTutorialUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		065A2B8711132D11D85D2173 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54640DBA4742388F59BB1EF6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87073D04D2CA0CEC74241524 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA5D7F082A3BE3930640C5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F8E64D86CF85C94FE4B919B /* FFSwiftTutorialKit.framework in Embed Frameworks */,
+				EB0ED753D74FE1113D0CB32F /* FFSwiftTutorialUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0418B5A82CFF04D1680393B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D01A46B8AE5616E8F7BB80 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A2D77E880884E3F782D6505 /* FFSwiftTutorialKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSwiftTutorialKit.swift; sourceTree = "<group>"; };
+		4CDA3C46C6737E690D5C9321 /* FFSwiftTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSwiftTutorialUITests.swift; sourceTree = "<group>"; };
+		4E865CB5983176FA85B524B5 /* FFSwiftTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFSwiftTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF6C77E233D1B8FD255BE2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A9717D0EE252031602E17C7 /* FFSwiftTutorialKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFSwiftTutorialKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6874BFF790A26C3EF314444F /* FFSwiftTutorialUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorialUITests-Info.plist"; sourceTree = "<group>"; };
+		6D94A2CC37B2C6B4282C5B59 /* FFSwiftTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorial-Info.plist"; sourceTree = "<group>"; };
+		6DDD932DF9789DAD0F86D217 /* FFSwiftTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		73203AC141C62A8CAE6DC7E3 /* FFSwiftTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFSwiftTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7933B5032B626ACB00EF9FE3 /* FFMpegExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMpegExtension.swift; sourceTree = "<group>"; };
+		7933B5052B626B9200EF9FE3 /* AvFoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvFoundationExtension.swift; sourceTree = "<group>"; };
+		8708FD492435CFF58952C385 /* FFSwiftTutorialUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSwiftTutorialUI.swift; sourceTree = "<group>"; };
+		8FCA9A2330719207338FC195 /* TuistBundle+FFSwiftTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+FFSwiftTutorial.swift"; sourceTree = "<group>"; };
+		A71192275C1848B9428CE5F1 /* FFSwiftTutorialUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorialUI-Info.plist"; sourceTree = "<group>"; };
+		B65D1A972328612154EC8CEF /* FFSwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFSwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95CAA2FEA069BF1025BD7CF /* FFSwiftTutorialKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorialKit-Info.plist"; sourceTree = "<group>"; };
+		CA3C137AD745CF6662D6BE4C /* FFSwiftTutorialKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSwiftTutorialKitTests.swift; sourceTree = "<group>"; };
+		CFE76DF599351FA225BC423C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6014D5964EA0303FAEAC53B /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		E146990D84ADD3A030AE1CBD /* FFSwiftTutorialKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FFSwiftTutorialKitTests-Info.plist"; sourceTree = "<group>"; };
+		EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFSwiftTutorialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFSwiftTutorialUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D7774CD171F80B804F3130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A1FEFACD8A0569505B280A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3387F1DAC6C0A7AE00B35592 /* FFSwiftTutorialUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3250CE67BE0B43D1D80888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E0F9018CEC4833DE029C6E /* FFSwiftTutorialKit.framework in Frameworks */,
+				8E9B6157ED9C2C08243E9E2E /* FFSwiftTutorialUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819BAECF87A3170FFE59697E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A7DF422B62537B00040CD5 /* Libavutil in Frameworks */,
+				79A7DF3C2B62537B00040CD5 /* Libavcodec in Frameworks */,
+				79A7DF3A2B62537B00040CD5 /* FFmpegKit in Frameworks */,
+				79A7DF402B62537B00040CD5 /* Libavformat in Frameworks */,
+				79A7DF3E2B62537B00040CD5 /* Libavfilter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6B7A87E9102B3391E91554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F9A228B3AB71D9653D2A21 /* FFSwiftTutorialKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7D4D5865C2208B4B231EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197BBB5D3C96D0CD2DD979BF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8FCA9A2330719207338FC195 /* TuistBundle+FFSwiftTutorial.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		201FC4AFE52D802A97CA9049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65D1A972328612154EC8CEF /* FFSwiftTutorial.app */,
+				EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */,
+				5A9717D0EE252031602E17C7 /* FFSwiftTutorialKitTests.xctest */,
+				4E865CB5983176FA85B524B5 /* FFSwiftTutorialTests.xctest */,
+				FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */,
+				73203AC141C62A8CAE6DC7E3 /* FFSwiftTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234897F7A720C66DCECAA5DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D77E880884E3F782D6505 /* FFSwiftTutorialKit.swift */,
+				7933B5072B626CFA00EF9FE3 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		27B4CFAF515B11680642ADB2 /* Compiled */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Compiled;
+			sourceTree = "<group>";
+		};
+		2C1EDF93215BC3D46805BD00 = {
+			isa = PBXGroup;
+			children = (
+				6F3686BAFE7803F5BEFB963D /* Project */,
+				27B4CFAF515B11680642ADB2 /* Compiled */,
+				201FC4AFE52D802A97CA9049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37722B4D6709AF1FC1F591FB /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				6520F9F79E0B90A4B3C1167A /* FFSwiftTutorial */,
+				E67994E9587413525663CF4E /* FFSwiftTutorialKit */,
+				C2F33A40F2CFF96D235A3002 /* FFSwiftTutorialUI */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		3DDD116A646019E8280642D1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CFE76DF599351FA225BC423C /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6520F9F79E0B90A4B3C1167A /* FFSwiftTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EDFBE7D4E8A6C215D8A92 /* Resources */,
+				3DDD116A646019E8280642D1 /* Sources */,
+				7B26C178FC9B276DFECB2D34 /* Tests */,
+			);
+			path = FFSwiftTutorial;
+			sourceTree = "<group>";
+		};
+		6C9EDFBE7D4E8A6C215D8A92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55DF6C77E233D1B8FD255BE2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E88D66D3712C09665636FCB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C137AD745CF6662D6BE4C /* FFSwiftTutorialKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6EF9CD645F32043F4E1F1A44 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8708FD492435CFF58952C385 /* FFSwiftTutorialUI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6F3686BAFE7803F5BEFB963D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				A8A22435FB06B3A2D556B694 /* Derived */,
+				37722B4D6709AF1FC1F591FB /* Targets */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		7933B5072B626CFA00EF9FE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7933B5052B626B9200EF9FE3 /* AvFoundationExtension.swift */,
+				7933B5032B626ACB00EF9FE3 /* FFMpegExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7B26C178FC9B276DFECB2D34 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6014D5964EA0303FAEAC53B /* AppTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A8A22435FB06B3A2D556B694 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				F84A274E884A0C974E952593 /* InfoPlists */,
+				197BBB5D3C96D0CD2DD979BF /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		C2F33A40F2CFF96D235A3002 /* FFSwiftTutorialUI */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9CD645F32043F4E1F1A44 /* Sources */,
+				D79E78E53B7A6967B2287E8B /* Tests */,
+			);
+			path = FFSwiftTutorialUI;
+			sourceTree = "<group>";
+		};
+		D79E78E53B7A6967B2287E8B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDA3C46C6737E690D5C9321 /* FFSwiftTutorialUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E67994E9587413525663CF4E /* FFSwiftTutorialKit */ = {
+			isa = PBXGroup;
+			children = (
+				234897F7A720C66DCECAA5DD /* Sources */,
+				6E88D66D3712C09665636FCB /* Tests */,
+			);
+			path = FFSwiftTutorialKit;
+			sourceTree = "<group>";
+		};
+		F84A274E884A0C974E952593 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				6D94A2CC37B2C6B4282C5B59 /* FFSwiftTutorial-Info.plist */,
+				B95CAA2FEA069BF1025BD7CF /* FFSwiftTutorialKit-Info.plist */,
+				E146990D84ADD3A030AE1CBD /* FFSwiftTutorialKitTests-Info.plist */,
+				6DDD932DF9789DAD0F86D217 /* FFSwiftTutorialTests-Info.plist */,
+				A71192275C1848B9428CE5F1 /* FFSwiftTutorialUI-Info.plist */,
+				6874BFF790A26C3EF314444F /* FFSwiftTutorialUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0071D41EE6DAA7D044549CCB /* FFSwiftTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D27A302FEA0E50AFF4FDD8 /* Build configuration list for PBXNativeTarget "FFSwiftTutorialUITests" */;
+			buildPhases = (
+				5907E7574FDA8BC2DA85ABEA /* Sources */,
+				5B16E90B0813D9E4C1BDC1AD /* Resources */,
+				54640DBA4742388F59BB1EF6 /* Embed Frameworks */,
+				77A1FEFACD8A0569505B280A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA6EA81CAE6DA51313B3BEE /* PBXTargetDependency */,
+			);
+			name = FFSwiftTutorialUITests;
+			productName = FFSwiftTutorialUITests;
+			productReference = 73203AC141C62A8CAE6DC7E3 /* FFSwiftTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E7A82CF8842401C8186A88E /* FFSwiftTutorialKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FAE50461AAB03BC45ABA40 /* Build configuration list for PBXNativeTarget "FFSwiftTutorialKit" */;
+			buildPhases = (
+				23A47A90C13614C764BE4B0B /* Sources */,
+				349B54EE1063CDB2CC2193DE /* Resources */,
+				A0418B5A82CFF04D1680393B /* Embed Frameworks */,
+				819BAECF87A3170FFE59697E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFSwiftTutorialKit;
+			packageProductDependencies = (
+				79A7DF392B62537B00040CD5 /* FFmpegKit */,
+				79A7DF3B2B62537B00040CD5 /* Libavcodec */,
+				79A7DF3D2B62537B00040CD5 /* Libavfilter */,
+				79A7DF3F2B62537B00040CD5 /* Libavformat */,
+				79A7DF412B62537B00040CD5 /* Libavutil */,
+			);
+			productName = FFSwiftTutorialKit;
+			productReference = EA0A378FC6BEE2A5AD2BDE2D /* FFSwiftTutorialKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0AF743EFC775CA1088C86DD /* FFSwiftTutorialUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD7C92E447CB75841EE9D4B /* Build configuration list for PBXNativeTarget "FFSwiftTutorialUI" */;
+			buildPhases = (
+				7A0631D2B5B4B56BBD6617FF /* Sources */,
+				B7D5A43CBBF6232D51E8E034 /* Resources */,
+				B1D01A46B8AE5616E8F7BB80 /* Embed Frameworks */,
+				F2E7D4D5865C2208B4B231EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFSwiftTutorialUI;
+			productName = FFSwiftTutorialUI;
+			productReference = FD31E7AEB53FE686CAE524A9 /* FFSwiftTutorialUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D21EF6D33C41160A491DAA7A /* FFSwiftTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF45EA3B2E5BEC70F3C4B04 /* Build configuration list for PBXNativeTarget "FFSwiftTutorial" */;
+			buildPhases = (
+				91307D501DD6E0141F2C9FBB /* Sources */,
+				6417A9CADD7E943EB0EE9676 /* Resources */,
+				9CA5D7F082A3BE3930640C5B /* Embed Frameworks */,
+				7E3250CE67BE0B43D1D80888 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947D20C659A8E670E67AD09C /* PBXTargetDependency */,
+				44BD42B0C738ABA4C9A41FD2 /* PBXTargetDependency */,
+			);
+			name = FFSwiftTutorial;
+			productName = FFSwiftTutorial;
+			productReference = B65D1A972328612154EC8CEF /* FFSwiftTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE913F7606D139430D1CB05E /* FFSwiftTutorialKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C7E2B88D0053F4E82800FE /* Build configuration list for PBXNativeTarget "FFSwiftTutorialKitTests" */;
+			buildPhases = (
+				25B5C11EF6A49AE57F89B186 /* Sources */,
+				A2809ED66C32C81CB84C8339 /* Resources */,
+				065A2B8711132D11D85D2173 /* Embed Frameworks */,
+				9A6B7A87E9102B3391E91554 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15AD5FE8D70F4B0214A4DAAB /* PBXTargetDependency */,
+			);
+			name = FFSwiftTutorialKitTests;
+			productName = FFSwiftTutorialKitTests;
+			productReference = 5A9717D0EE252031602E17C7 /* FFSwiftTutorialKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F27B379EB9D5212A8F3BE59D /* FFSwiftTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE903EEF6D26EBD72E554EE /* Build configuration list for PBXNativeTarget "FFSwiftTutorialTests" */;
+			buildPhases = (
+				E5A3D9A37B90A226AF215628 /* Sources */,
+				E0EBFC927D6CF2191D210978 /* Resources */,
+				87073D04D2CA0CEC74241524 /* Embed Frameworks */,
+				37D7774CD171F80B804F3130 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				393D68E33AA5C7D0EBD6BC58 /* PBXTargetDependency */,
+			);
+			name = FFSwiftTutorialTests;
+			productName = FFSwiftTutorialTests;
+			productReference = 4E865CB5983176FA85B524B5 /* FFSwiftTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D335DC8324F621BB2820FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = wonkwh;
+				TargetAttributes = {
+					F27B379EB9D5212A8F3BE59D = {
+						TestTargetID = D21EF6D33C41160A491DAA7A;
+					};
+				};
+			};
+			buildConfigurationList = 7B5D020007AD50EEBD6C08F6 /* Build configuration list for PBXProject "FFSwiftTutorial" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2C1EDF93215BC3D46805BD00;
+			packageReferences = (
+				79A7DF382B62537B00040CD5 /* XCLocalSwiftPackageReference "Targets/FFmpegKit" */,
+			);
+			productRefGroup = 201FC4AFE52D802A97CA9049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21EF6D33C41160A491DAA7A /* FFSwiftTutorial */,
+				F27B379EB9D5212A8F3BE59D /* FFSwiftTutorialTests */,
+				5E7A82CF8842401C8186A88E /* FFSwiftTutorialKit */,
+				DE913F7606D139430D1CB05E /* FFSwiftTutorialKitTests */,
+				D0AF743EFC775CA1088C86DD /* FFSwiftTutorialUI */,
+				0071D41EE6DAA7D044549CCB /* FFSwiftTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349B54EE1063CDB2CC2193DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B16E90B0813D9E4C1BDC1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6417A9CADD7E943EB0EE9676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385B29ECD46E80E6AEC327BB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2809ED66C32C81CB84C8339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D5A43CBBF6232D51E8E034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EBFC927D6CF2191D210978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23A47A90C13614C764BE4B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7933B5042B626ACB00EF9FE3 /* FFMpegExtension.swift in Sources */,
+				0A983AEBBBE1343407FB0170 /* FFSwiftTutorialKit.swift in Sources */,
+				7933B5062B626B9200EF9FE3 /* AvFoundationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B5C11EF6A49AE57F89B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF60ABF34CFB238527683A00 /* FFSwiftTutorialKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5907E7574FDA8BC2DA85ABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B1271E4D803899EFD3471 /* FFSwiftTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0631D2B5B4B56BBD6617FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8D5A72DEE70848F5EBCF5A /* FFSwiftTutorialUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91307D501DD6E0141F2C9FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1987DAF21DB01E082BFB59D2 /* TuistBundle+FFSwiftTutorial.swift in Sources */,
+				ECDD145617A748010372B31B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A3D9A37B90A226AF215628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA30FF5625FE26E8289889 /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15AD5FE8D70F4B0214A4DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFSwiftTutorialKit;
+			target = 5E7A82CF8842401C8186A88E /* FFSwiftTutorialKit */;
+			targetProxy = D0F0E2A247E92465B143DA44 /* PBXContainerItemProxy */;
+		};
+		393D68E33AA5C7D0EBD6BC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFSwiftTutorial;
+			target = D21EF6D33C41160A491DAA7A /* FFSwiftTutorial */;
+			targetProxy = 65C19CDAB1D1AA3817AA23CD /* PBXContainerItemProxy */;
+		};
+		44BD42B0C738ABA4C9A41FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFSwiftTutorialUI;
+			target = D0AF743EFC775CA1088C86DD /* FFSwiftTutorialUI */;
+			targetProxy = 66796A99AFE8FA83C8DDD5C6 /* PBXContainerItemProxy */;
+		};
+		6BA6EA81CAE6DA51313B3BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFSwiftTutorialUI;
+			target = D0AF743EFC775CA1088C86DD /* FFSwiftTutorialUI */;
+			targetProxy = EF43FA8BE3ACFD6913ABA99F /* PBXContainerItemProxy */;
+		};
+		947D20C659A8E670E67AD09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFSwiftTutorialKit;
+			target = 5E7A82CF8842401C8186A88E /* FFSwiftTutorialKit */;
+			targetProxy = 6132C00F0798160D7A979509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FDF111A7E8E99D7A0FDB154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialKitTests;
+				PRODUCT_NAME = FFSwiftTutorialKitTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F9F0C14276ED39EA0B3BD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialKitTests;
+				PRODUCT_NAME = FFSwiftTutorialKitTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41243127CFB20E2CED6008B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialKit;
+				PRODUCT_NAME = FFSwiftTutorialKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		578D829996DA4ACD62CFD957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GCHCSAWTF2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.wonkwh.FFSwiftTutorial;
+				PRODUCT_NAME = FFSwiftTutorial;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EE818DD5FAFC4EF2FD90CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731045AAFAD529E6ED2DAA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AB55063B1874C013F597109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialUI;
+				PRODUCT_NAME = FFSwiftTutorialUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		990AA37889D5306741537BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialUITests;
+				PRODUCT_NAME = FFSwiftTutorialUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A3BBB5B2E219919F4EAC53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialTests;
+				PRODUCT_NAME = FFSwiftTutorialTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFSwiftTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FFSwiftTutorial";
+				TEST_TARGET_NAME = FFSwiftTutorial;
+			};
+			name = Release;
+		};
+		9F18C3AF897D332E5FFFF503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialUITests;
+				PRODUCT_NAME = FFSwiftTutorialUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C732C3E2B459C6A19B9B708D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialUI;
+				PRODUCT_NAME = FFSwiftTutorialUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFF649AF430B5640E93ACB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialKit;
+				PRODUCT_NAME = FFSwiftTutorialKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB7B5558423DBF49C540FC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GCHCSAWTF2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.wonkwh.FFSwiftTutorial;
+				PRODUCT_NAME = FFSwiftTutorial;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4C501891F44E2D490625E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/FFSwiftTutorialTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.FFSwiftTutorialTests;
+				PRODUCT_NAME = FFSwiftTutorialTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFSwiftTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FFSwiftTutorial";
+				TEST_TARGET_NAME = FFSwiftTutorial;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF45EA3B2E5BEC70F3C4B04 /* Build configuration list for PBXNativeTarget "FFSwiftTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7B5558423DBF49C540FC2E /* Debug */,
+				578D829996DA4ACD62CFD957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74D27A302FEA0E50AFF4FDD8 /* Build configuration list for PBXNativeTarget "FFSwiftTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F18C3AF897D332E5FFFF503 /* Debug */,
+				990AA37889D5306741537BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5D020007AD50EEBD6C08F6 /* Build configuration list for PBXProject "FFSwiftTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731045AAFAD529E6ED2DAA49 /* Debug */,
+				6EE818DD5FAFC4EF2FD90CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD7C92E447CB75841EE9D4B /* Build configuration list for PBXNativeTarget "FFSwiftTutorialUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB55063B1874C013F597109 /* Debug */,
+				C732C3E2B459C6A19B9B708D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FAE50461AAB03BC45ABA40 /* Build configuration list for PBXNativeTarget "FFSwiftTutorialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41243127CFB20E2CED6008B7 /* Debug */,
+				CFF649AF430B5640E93ACB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C7E2B88D0053F4E82800FE /* Build configuration list for PBXNativeTarget "FFSwiftTutorialKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9F0C14276ED39EA0B3BD31 /* Debug */,
+				2FDF111A7E8E99D7A0FDB154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE903EEF6D26EBD72E554EE /* Build configuration list for PBXNativeTarget "FFSwiftTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C501891F44E2D490625E2 /* Debug */,
+				9A3BBB5B2E219919F4EAC53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		79A7DF382B62537B00040CD5 /* XCLocalSwiftPackageReference "Targets/FFmpegKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Targets/FFmpegKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79A7DF392B62537B00040CD5 /* FFmpegKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FFmpegKit;
+		};
+		79A7DF3B2B62537B00040CD5 /* Libavcodec */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Libavcodec;
+		};
+		79A7DF3D2B62537B00040CD5 /* Libavfilter */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Libavfilter;
+		};
+		79A7DF3F2B62537B00040CD5 /* Libavformat */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Libavformat;
+		};
+		79A7DF412B62537B00040CD5 /* Libavutil */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Libavutil;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1D335DC8324F621BB2820FA6 /* Project object */;
+}
